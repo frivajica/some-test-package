@@ -1,0 +1,14 @@
+/node_modules
+
+# Ignore test-related files
+/coverage.data
+/coverage/
+
+# Build files
+/dist
+
+# MacOS
+.DS_Store
+
+# typescripttsconfig.json
+tsoup.config.ts

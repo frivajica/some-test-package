@@ -1,0 +1,22 @@
+{
+  "name": "some-test-package",
+  "version": "1.1.1",
+  "description": "a simple test for npm linking",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "files": ["dist"],
+  "scripts": {
+    "build": "tsup"
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "frivajica",
+  "license": "none >:P",
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "tsup": "^8.3.0",
+    "typescript": "^5.6.2"
+  }
+}
